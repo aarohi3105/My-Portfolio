@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+
+</head>
+<body class="bg-gray-100 ">
+    <!--Navbar-->
+    <nav class="bg-white shadow p-4 flex justify-between items-center">
+        <!--left navigation links-->
+        <ul class="flex space-x-4">
+            <li><a href="" class="text-blue-500 hover:underline">Home</a></li>
+            <li><a href="" class="text-blue-500 hover:underline">About</a></li>
+            <li><a href="" class="text-blue-500 hover:underline">Contact</a></li>
+            <li><a href="" class="text-blue-500 hover:underline">Footer</a></li>
+        </ul>
+        <!--right side:download button-->
+        <a href="#" class="bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-4 py-3 rounded-lg hover:shadow-2xl transition-shadow duration-500 text-sm sm:text-base">Download Resume</a>
+       
+    </nav>
+    <!--second row-->
+    <section class="bg-gray-800 p-8">
+        <div class="flex flex-row justify-between">
+            
+        <button class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:scale-105 ml-10 mt-4 transition transform duration-500 ">Explore Page</button>
+
+    <button class="bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-4 rounded-xl hover:shadow-2xl transition-shadow duration-500">Save Changes</button>
+        </div>
+    </section>
+    <section class="bg-white p-8">
+        <h1 class="text-6xl font-bold text-center ">Welcome to My Portfolio</h1>
+         <p class="text-center text-lg italic text-gray-600 mt-2">"Turning code into creativity"</p>
+
+        <div class="text-center">
+            <button class="mt-6 bg-blue-600 text-white px-7 py-2 rounded-lg hover:bg-blue-800">
+                Get Started
+            </button>
+           
+
+        </div>
+    </section>
+  
+    <!-- about me -->
+    <section class="flex flex-col md:flex-row items-center p-8 bg-white mt-5">
+        <div class="w-33 h-33 rounded-full border-4 border-blue-500">
+          <img src="images/aarohi.jpg" alt="myntra_clone" class="w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 rounded-full object-cover shadow-lg mx-auto md:mx-0 "/>
+        </div>
+        <div class="mt-4 md:mt-0 md:ml-6 sm:mt-10 text-center md:text-left">
+            <h2 class="text-2xl font-bold text-gray-800">About Me</h2>
+            <p class="text-gray-600 mt-3 text-justify sm-center">Aarohi Jain is a prefinal-year Computer Science student with a strong curiosity for science and a passion for learning new skills. She enjoys exploring technical topics, solving algorithmic problems, and understanding programming concepts deeply. Aarohi is eager to grow through hands-on experience and often engages with questions that sharpen her knowledge. Her dedication to mastering new tools, coding techniques, and logical thinking reflects her commitment to academic and personal growth.</p>
+            <div class="mt-4">
+                <span class="inline-block bg-blue-100 px-3 py-2 rounded-full text-sm mr-2">HTML</span>
+                 <span class="inline-block bg-blue-100 px-3 py-2 rounded-full text-sm mr-2">CSS</span>
+                  <span class="inline-block bg-blue-100 px-3 py-2 rounded-full text-sm mr-2">TAILWIND</span>
+                   <span class="inline-block bg-blue-100 px-3 py-2 rounded-full text-sm mr-2">JAVA</span>
+                   <span class="inline-block bg-blue-100 px-3 py-2 rounded-full text-sm mr-2">CPP</span>
+                    <span class="inline-block bg-blue-100 px-3 py-2 rounded-full text-sm mr-2">JAVASCRIPT</span>
+            </div>
+        </div>
+    </section>
+    <!-- project section -->
+     <section class="p-8 bg-gray-50">
+       <h2 class="text-3xl font-bold text-center mb-8">Projects</h2>
+       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- project card -->
+         <div class="bg-white shadow-lg rounded-lg overflow-hidden p-6 hover:shadow-2xl hover:scale-105  transition transform duration-300 ">
+              <img src="images/recipe.jpg" alt="project image" class="w-full h-48 object-cover rounded mb-4 border-2"/> 
+            <h3 class="font-semibold text-2xl text-gray-800">Recipe-Website</h3>
+        <p class="text-gray-600 mt-2 text-center"> I have created a recipe website with the help of plain css and html</p>
+        <div class="mt-4 flex justify-between items-center">
+            <span class="text-sm text-gray-500">HTML and CSS</span>
+            <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-800">View</button>
+        </div>
+        
+         </div>
+           <div class="bg-white shadow-lg rounded-lg overflow-hidden p-6 hover:shadow-2xl hover:scale-105  transition transform duration-300">
+            <img src="images/myntra_clone.jpg" alt="project image" class="w-full h-48 object-cover rounded mb-4 border-2"/>
+            <h3 class="font-semibold text-2xl text-gray-800">Myntra Clone</h3>
+        <p class="text-gray-600 mt-2 text-center"> I have created a myntra-clone with the help of plain css and html</p>
+        
+        <div class="mt-4 flex justify-between items-center">
+            <span class="text-sm text-gray-500">HTML and CSS</span>
+            <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-800">View</button>
+        </div>
+        
+         </div>
+           <div class="bg-white shadow-lg rounded-lg overflow-hidden p-6 hover:shadow-2xl hover:scale-105  transition transform duration-300">
+               <img src="images/registration_form.jpg" alt="project image" class="w-full h-48 object-cover rounded mb-4 border-2"/>
+            <h3 class="font-semibold text-2xl text-gray-800">Registration Form</h3>
+        <p class="text-gray-600 mt-2 text-center"> I have created a Registration form with the help of plain css and html</p>
+        <div class="mt-4 flex justify-between items-center">
+            <span class="text-sm text-gray-500">Tailwind CSS</span>
+            <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-800">View</button>
+        </div>
+        
+         </div>
+           <div class="bg-white shadow-lg rounded-lg overflow-hidden p-6 hover:shadow-2xl hover:scale-105  transition transform duration-300">
+              <img src="images/porfolio.jpg" alt="project image" class="w-full h-48 object-cover rounded mb-4 border-2"/>
+            <h3 class="font-semibold text-2xl text-gray-800">Portfolio</h3>
+        <p class="text-gray-600 mt-2 text-center"> i have created a portfolio with the help of tailwind CSS</p>
+        <div class="mt-4 flex justify-between items-center">
+            <span class="text-sm text-gray-500">Tailwind CSS</span>
+            <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-800">View</button>
+        </div>
+        
+         </div>
+       </div>
+     </section>
+
+     <!--contact section-->
+     <section class="bg-white">
+         <h2 class="text-3xl font-bold text-center mb-8">Contact Us</h2>
+        <div class="max-w-md mx-auto">
+           <form class="space-y-6">   <!--flex flex-col-->
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Name</label>
+                <input class="w-full p-3 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border" placeholder="Your Name" type="text"/>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                <input class="w-full p-3 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border" placeholder="sample@gmail.com" type="text"/>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Description</label>
+                <input class="w-full p-3 border border-gray-300 rounded-lg  focus:ring-2 focus:ring-blue-500 focus:border" placeholder="Enter your description" type="text"/>
+            </div>
+            <button type="submit" class="bg-blue-500 py-3 px-2 text-white rounded w-full hover:bg-blue-600 transition duration-500">
+                Send Message
+            </button>
+            
+           </form> 
+        </div>
+     </section>
+
+    <footer class="bg-gray-800 text-white p-8 mt-3">
+        <div class="text-center">
+            <h3 class="text-lg font-semibold">Connect with us</h3>
+            <div class="mt-4 space-x-4">
+                <a href="#" class="text-blue-400 hover:underline">Linkedin</a>
+                <a href="#" class="text-blue-400 hover:underline">Github</a>
+                <a href="#" class="text-blue-400 hover:underline">Twitter</a>
+            </div>
+            <p class="mt-4 text-sm text-gray-400">@ 2025 Aarohi. All rights reserved.</p>
+        </div>
+    </footer>
+    
+
+ 
+</body>
+</html>
